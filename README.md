@@ -10,20 +10,20 @@ npm install magic-toast-hiteshfolio
 
 ## Usage
 
-1. **Wrap your application with the `ToastProvider`:**
+1. **Wrap your application with the `MagicToastHiteshFolio`:**
 
-   Start by wrapping your application with the `ToastProvider` component. This makes the toast context available to all child components.
+   Start by wrapping your application with the `MagicToastHiteshFolio` component. This makes the toast context available to all child components.
 
    ```javascript
    import React from "react";
    import ReactDOM from "react-dom";
-   import { ToastProvider } from "animate-toast-hiteshfolio";
+   import { MagicToastHiteshFolio } from "animate-toast-hiteshfolio";
    import App from "./App";
 
    ReactDOM.render(
-     <ToastProvider>
+     <MagicToastHiteshFolio>
        <App />
-     </ToastProvider>,
+     </MagicToastHiteshFolio>,
      document.getElementById("root")
    );
    ```
@@ -57,7 +57,7 @@ The toast component is styled based on the message type. You can customize these
 
 ## Props
 
-### ToastProvider
+### MagicToastHiteshFolio
 - **children**: The child components of the provider.
 
 ### Toast
