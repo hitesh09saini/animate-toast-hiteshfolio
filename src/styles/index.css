@@ -1,0 +1,63 @@
+.magicHiteshfolio-toast {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    animation: bounce 0.5s;
+    color: white;
+  }
+
+  .magicHiteshfolio-toast {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .magicHiteshfolio-toast-success {
+    background-color: green;
+    color: white;
+  }
+  
+  .magicHiteshfolio-toast-error {
+    background-color: red;
+    color: white;
+  }
+  
+  .magicHiteshfolio-toast-info {
+    background-color: blue;
+    color: white;
+  }
+  
+  .magicHiteshfolio-toast-warning {
+    background-color: orange;
+    color: black;
+  }
+  
+  
+  .magicHiteshfolio-toast-success {
+    background-color: #48bb78; /* green-500 */
+  }
+  
+  .magicHiteshfolio-toast-error {
+    background-color: #f56565; /* red-500 */
+  }
+  
+  .magicHiteshfolio-toast-info {
+    background-color: #4299e1; /* blue-500 */
+  }
+  
+  .magicHiteshfolio-toast-warning {
+    background-color: #f6e05e; /* yellow-500 */
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
